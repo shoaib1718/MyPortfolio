@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.png" alt="img" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="Education.html">Education</a></li>
+                    <li><a href="Experience.html">Experience</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </nav>
+            <img src="menu.png" alt="img" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Shoaib <br> Janvekar </h2>
+                <h4>8310865617</h4>
+                <!-- <p>(Software Developer)</p> -->
+                <h4>shoaibrjanvekar@gmail.com</h4>
+                <form action="Shoaib Janvekar.pdf" onclick="">
+                    <button type="button" class="btn btn-primary">My Resume<img src="arrow.png" alt="">
+                    </button>
+                </form>
+            </div>
+
+            <div class="col-2">
+                <img src="controller.png" alt="img" class="controller">
+                <div class="color-box"></div>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <img src="fb.png" alt="">
+            <img src="tw.png" alt="">
+            <img src="ig.png" alt="">
+        </div>
+    </div>
+<script>
+    var menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px";
+
+    function togglemenu(){
+        if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "130px"
+        }
+        else{
+            menuList.style.maxHeight = "0px"
+        }
+
+    }
+</script>
+
+</body>
+
+</html>
