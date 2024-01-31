@@ -2,7 +2,9 @@
 
 body {
     font-family: Arial, sans-serif;
-    padding-left: 5%;
+    padding-left: 3%;
+    padding-right: 2%;
+    padding-top: 2%;
 }
 .navbar {
     background-color: #333;
